@@ -6,9 +6,7 @@
 //  Copyright © 2018年 linpeng. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#import "JKRefreshComponent.h"
-
-
+#import "JKRefreshHeader.h"
 
 @interface UIScrollView (Refresh)
 @property (nonatomic,strong) JKRefreshComponent *topShowView;

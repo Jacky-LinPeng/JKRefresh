@@ -18,7 +18,7 @@ static char topShowViewKey;
 {
     if (!self.topShowView)
     {
-        self.topShowView = [[JKRefreshComponent alloc] init];
+        self.topShowView = [[JKRefreshHeader alloc] init];
     }
     self.topShowView.frame = CGRectMake(0, -100, self.frame.size.width, 100);
     self.topShowView.scrollView = self;
