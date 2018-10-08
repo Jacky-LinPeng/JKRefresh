@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6203BB34215D0075002E4FAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB33215D0075002E4FAF /* AppDelegate.m */; };
+		6203BB37215D0075002E4FAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB36215D0075002E4FAF /* ViewController.m */; };
+		6203BB3A215D0075002E4FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6203BB38215D0075002E4FAF /* Main.storyboard */; };
+		6203BB3C215D0077002E4FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6203BB3B215D0077002E4FAF /* Assets.xcassets */; };
+		6203BB3F215D0077002E4FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6203BB3D215D0077002E4FAF /* LaunchScreen.storyboard */; };
+		6203BB42215D0077002E4FAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB41215D0077002E4FAF /* main.m */; };
+		6203BB4C215D0077002E4FAF /* JKRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB4B215D0077002E4FAF /* JKRefreshTests.m */; };
+		6203BB57215D0077002E4FAF /* JKRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB56215D0077002E4FAF /* JKRefreshUITests.m */; };
+		6203BB69215D00C1002E4FAF /* UIScrollView+JKRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB68215D00C1002E4FAF /* UIScrollView+JKRefresh.m */; };
+		6203BB6C215D00F2002E4FAF /* JKRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6203BB6B215D00F2002E4FAF /* JKRefreshComponent.m */; };
+		627DEB3B216B035400EE46C9 /* JKRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 627DEB3A216B035400EE46C9 /* JKRefreshHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6203BB48215D0077002E4FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6203BB27215D0075002E4FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6203BB2E215D0075002E4FAF;
+			remoteInfo = JKRefresh;
+		};
+		6203BB53215D0077002E4FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6203BB27215D0075002E4FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6203BB2E215D0075002E4FAF;
+			remoteInfo = JKRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6203BB2F215D0075002E4FAF /* JKRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203BB32215D0075002E4FAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6203BB33215D0075002E4FAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6203BB35215D0075002E4FAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6203BB36215D0075002E4FAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6203BB39215D0075002E4FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6203BB3B215D0077002E4FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6203BB3E215D0077002E4FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6203BB40215D0077002E4FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203BB41215D0077002E4FAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6203BB47215D0077002E4FAF /* JKRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203BB4B215D0077002E4FAF /* JKRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRefreshTests.m; sourceTree = "<group>"; };
+		6203BB4D215D0077002E4FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203BB52215D0077002E4FAF /* JKRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6203BB56215D0077002E4FAF /* JKRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRefreshUITests.m; sourceTree = "<group>"; };
+		6203BB58215D0077002E4FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6203BB67215D00C1002E4FAF /* UIScrollView+JKRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JKRefresh.h"; sourceTree = "<group>"; };
+		6203BB68215D00C1002E4FAF /* UIScrollView+JKRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JKRefresh.m"; sourceTree = "<group>"; };
+		6203BB6A215D00F2002E4FAF /* JKRefreshComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRefreshComponent.h; sourceTree = "<group>"; };
+		6203BB6B215D00F2002E4FAF /* JKRefreshComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRefreshComponent.m; sourceTree = "<group>"; };
+		627DEB39216B035400EE46C9 /* JKRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRefreshHeader.h; sourceTree = "<group>"; };
+		627DEB3A216B035400EE46C9 /* JKRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRefreshHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6203BB2C215D0075002E4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB44215D0077002E4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB4F215D0077002E4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6203BB26215D0075002E4FAF = {
+			isa = PBXGroup;
+			children = (
+				6203BB31215D0075002E4FAF /* JKRefresh */,
+				6203BB4A215D0077002E4FAF /* JKRefreshTests */,
+				6203BB55215D0077002E4FAF /* JKRefreshUITests */,
+				6203BB30215D0075002E4FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6203BB30215D0075002E4FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6203BB2F215D0075002E4FAF /* JKRefresh.app */,
+				6203BB47215D0077002E4FAF /* JKRefreshTests.xctest */,
+				6203BB52215D0077002E4FAF /* JKRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6203BB31215D0075002E4FAF /* JKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				627DEB38216B031B00EE46C9 /* JKRefresh */,
+				6203BB32215D0075002E4FAF /* AppDelegate.h */,
+				6203BB33215D0075002E4FAF /* AppDelegate.m */,
+				6203BB35215D0075002E4FAF /* ViewController.h */,
+				6203BB36215D0075002E4FAF /* ViewController.m */,
+				6203BB38215D0075002E4FAF /* Main.storyboard */,
+				6203BB3B215D0077002E4FAF /* Assets.xcassets */,
+				6203BB3D215D0077002E4FAF /* LaunchScreen.storyboard */,
+				6203BB40215D0077002E4FAF /* Info.plist */,
+				6203BB41215D0077002E4FAF /* main.m */,
+			);
+			path = JKRefresh;
+			sourceTree = "<group>";
+		};
+		6203BB4A215D0077002E4FAF /* JKRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				6203BB4B215D0077002E4FAF /* JKRefreshTests.m */,
+				6203BB4D215D0077002E4FAF /* Info.plist */,
+			);
+			path = JKRefreshTests;
+			sourceTree = "<group>";
+		};
+		6203BB55215D0077002E4FAF /* JKRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6203BB56215D0077002E4FAF /* JKRefreshUITests.m */,
+				6203BB58215D0077002E4FAF /* Info.plist */,
+			);
+			path = JKRefreshUITests;
+			sourceTree = "<group>";
+		};
+		627DEB38216B031B00EE46C9 /* JKRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6203BB67215D00C1002E4FAF /* UIScrollView+JKRefresh.h */,
+				6203BB68215D00C1002E4FAF /* UIScrollView+JKRefresh.m */,
+				6203BB6A215D00F2002E4FAF /* JKRefreshComponent.h */,
+				6203BB6B215D00F2002E4FAF /* JKRefreshComponent.m */,
+				627DEB39216B035400EE46C9 /* JKRefreshHeader.h */,
+				627DEB3A216B035400EE46C9 /* JKRefreshHeader.m */,
+			);
+			path = JKRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6203BB2E215D0075002E4FAF /* JKRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203BB5B215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefresh" */;
+			buildPhases = (
+				6203BB2B215D0075002E4FAF /* Sources */,
+				6203BB2C215D0075002E4FAF /* Frameworks */,
+				6203BB2D215D0075002E4FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRefresh;
+			productName = JKRefresh;
+			productReference = 6203BB2F215D0075002E4FAF /* JKRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6203BB46215D0077002E4FAF /* JKRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203BB5E215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefreshTests" */;
+			buildPhases = (
+				6203BB43215D0077002E4FAF /* Sources */,
+				6203BB44215D0077002E4FAF /* Frameworks */,
+				6203BB45215D0077002E4FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6203BB49215D0077002E4FAF /* PBXTargetDependency */,
+			);
+			name = JKRefreshTests;
+			productName = JKRefreshTests;
+			productReference = 6203BB47215D0077002E4FAF /* JKRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6203BB51215D0077002E4FAF /* JKRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6203BB61215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefreshUITests" */;
+			buildPhases = (
+				6203BB4E215D0077002E4FAF /* Sources */,
+				6203BB4F215D0077002E4FAF /* Frameworks */,
+				6203BB50215D0077002E4FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6203BB54215D0077002E4FAF /* PBXTargetDependency */,
+			);
+			name = JKRefreshUITests;
+			productName = JKRefreshUITests;
+			productReference = 6203BB52215D0077002E4FAF /* JKRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6203BB27215D0075002E4FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = linpeng;
+				TargetAttributes = {
+					6203BB2E215D0075002E4FAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6203BB46215D0077002E4FAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6203BB2E215D0075002E4FAF;
+					};
+					6203BB51215D0077002E4FAF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6203BB2E215D0075002E4FAF;
+					};
+				};
+			};
+			buildConfigurationList = 6203BB2A215D0075002E4FAF /* Build configuration list for PBXProject "JKRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6203BB26215D0075002E4FAF;
+			productRefGroup = 6203BB30215D0075002E4FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6203BB2E215D0075002E4FAF /* JKRefresh */,
+				6203BB46215D0077002E4FAF /* JKRefreshTests */,
+				6203BB51215D0077002E4FAF /* JKRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6203BB2D215D0075002E4FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203BB3F215D0077002E4FAF /* LaunchScreen.storyboard in Resources */,
+				6203BB3C215D0077002E4FAF /* Assets.xcassets in Resources */,
+				6203BB3A215D0075002E4FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB45215D0077002E4FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB50215D0077002E4FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6203BB2B215D0075002E4FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203BB37215D0075002E4FAF /* ViewController.m in Sources */,
+				627DEB3B216B035400EE46C9 /* JKRefreshHeader.m in Sources */,
+				6203BB42215D0077002E4FAF /* main.m in Sources */,
+				6203BB6C215D00F2002E4FAF /* JKRefreshComponent.m in Sources */,
+				6203BB34215D0075002E4FAF /* AppDelegate.m in Sources */,
+				6203BB69215D00C1002E4FAF /* UIScrollView+JKRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB43215D0077002E4FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203BB4C215D0077002E4FAF /* JKRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6203BB4E215D0077002E4FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6203BB57215D0077002E4FAF /* JKRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6203BB49215D0077002E4FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6203BB2E215D0075002E4FAF /* JKRefresh */;
+			targetProxy = 6203BB48215D0077002E4FAF /* PBXContainerItemProxy */;
+		};
+		6203BB54215D0077002E4FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6203BB2E215D0075002E4FAF /* JKRefresh */;
+			targetProxy = 6203BB53215D0077002E4FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6203BB38215D0075002E4FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6203BB39215D0075002E4FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6203BB3D215D0077002E4FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6203BB3E215D0077002E4FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6203BB59215D0077002E4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6203BB5A215D0077002E4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6203BB5C215D0077002E4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6203BB5D215D0077002E4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6203BB5F215D0077002E4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRefresh.app/JKRefresh";
+			};
+			name = Debug;
+		};
+		6203BB60215D0077002E4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRefresh.app/JKRefresh";
+			};
+			name = Release;
+		};
+		6203BB62215D0077002E4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKRefresh;
+			};
+			name = Debug;
+		};
+		6203BB63215D0077002E4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JKRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linpeng.JKRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6203BB2A215D0075002E4FAF /* Build configuration list for PBXProject "JKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203BB59215D0077002E4FAF /* Debug */,
+				6203BB5A215D0077002E4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203BB5B215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203BB5C215D0077002E4FAF /* Debug */,
+				6203BB5D215D0077002E4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203BB5E215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203BB5F215D0077002E4FAF /* Debug */,
+				6203BB60215D0077002E4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6203BB61215D0077002E4FAF /* Build configuration list for PBXNativeTarget "JKRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203BB62215D0077002E4FAF /* Debug */,
+				6203BB63215D0077002E4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6203BB27215D0075002E4FAF /* Project object */;
+}
