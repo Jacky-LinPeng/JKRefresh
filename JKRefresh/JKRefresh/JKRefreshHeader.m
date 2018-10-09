@@ -18,6 +18,7 @@
 -(instancetype)init {
     if (self = [super init]) {
         [self.layer addSublayer:self.animateLayer];
+        self.animateLayer.hidden = YES;
     }
     return self;
 }
@@ -26,21 +27,25 @@
     [super layoutSubviews];
     CGFloat layerWidth = self.animateLayer.frame.size.width;
     CGFloat layerHeight = self.animateLayer.frame.size.height;
-    self.animateLayer.frame = CGRectMake((self.frame.size.width - layerWidth )/2, (self.frame.size.height - layerHeight )/2, layerWidth, layerHeight);
+    self.animateLayer.frame = CGRectMake((self.frame.size.width - 40 )/2, (self.frame.size.height - 40 )/2, layerWidth, layerHeight);
+    NSLog(@"====");
 }
 
 #pragma mark -
 
 -(void)doBeginRefresh {
-    
+    [super doBeginRefresh];
+    self.animateLayer.hidden = YES;
 }
 
 -(void)doNormalRefresh {
-    
+    [super doNormalRefresh];
+    self.animateLayer.hidden = YES;
 }
 
 -(void)doRefreshing {
-    
+    [super doRefreshing];
+    self.animateLayer.hidden = NO;
 }
 
 -(CALayer *)animateLayer {
@@ -52,7 +57,7 @@
 
 // 三角形动画
 - (CALayer *)replicatorLayer_Triangle{
-    CGFloat radius = 40/4;
+    CGFloat radius = 50/4;
     CGFloat transX = 40 - radius;
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.frame = CGRectMake(0, 0, radius, radius);
